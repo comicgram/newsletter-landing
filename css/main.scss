@@ -7,6 +7,10 @@
   .container {
     max-width: 730px;
   }
+
+  header {
+    margin-top: 100px !important;
+  }
 }
 
 // Import partials from `sass_dir` (defaults to `_sass`)
