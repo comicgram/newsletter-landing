@@ -4,6 +4,13 @@
   h1 {
     margin-top: 100px;
     margin-bottom: 20px;
+    font-size: 50px;
+    font-family: 'Komika Title';
+    color: #f1c40f;
+
+    &:first-letter {
+      font-size: 80px;
+    }
   }
 
   h2 {
