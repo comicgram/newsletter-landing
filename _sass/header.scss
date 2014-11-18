@@ -1,8 +1,14 @@
 header {
-  margin-top: 50px;
+  margin-top: 25%;
   margin-bottom: 50px;
 }
 
 #header {
   text-align: center;
+  font-family: 'Komika Title';
+  color: #f1c40f;
+}
+
+#header:first-letter  {
+  font-size: 70px;
 }

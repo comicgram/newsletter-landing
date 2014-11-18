@@ -2,9 +2,12 @@
 <html>
   {% include head.html %}
   <body>
-    <div class="container">
-      {{ content }}
+    <div id="overlay">
+      <div class="container">
+        {{ content }}
+        {% include footer.html %}
+        {% include google-analytics.html %}
+      </div>
     </div>
-    {% include google-analytics.html %}
   </body>
 </html>
