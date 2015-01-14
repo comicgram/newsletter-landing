@@ -1,6 +1,11 @@
 header {
-  margin-top: 25%;
+  @media (min-width: 768px) {
+    margin-top: 10%;
+  }
+
   margin-bottom: 50px;
+
+
 }
 
 #header {
