@@ -8,3 +8,6 @@ github_username:  adrrian17
 # Build settings
 markdown: kramdown
 port: 3000
+
+sass:
+  style: compressed
