@@ -1,21 +1,15 @@
 header {
-  @media (min-width: 768px) {
-    margin-top: 10%;
+  #main-title {
+    text-align: center;
+    font-family: 'Komika Title';
+    color: rgba(55,55,55,1);
   }
 
-  margin-bottom: 50px;
-
-  li {
-    list-style-image: url('/img/bullet-icon.png')
+  &:first-letter  {
+    font-size: 70px;
   }
-}
 
-#header {
-  text-align: center;
-  font-family: 'Komika Title';
-  color: #f1c40f;
-}
-
-#header:first-letter  {
-  font-size: 70px;
+  .btn {
+    margin-top: 10px;
+  }
 }
