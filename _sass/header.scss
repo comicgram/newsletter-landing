@@ -1,15 +1,24 @@
 header {
-  #main-title {
-    text-align: center;
-    font-family: 'Komika Title';
-    color: rgba(55,55,55,1);
-  }
+  .container {
+    width: 780px;
 
-  &:first-letter  {
-    font-size: 70px;
-  }
+    @media (max-width: 768px) {
+      max-width: 350px;
+    }
 
-  .btn {
-    margin-top: 10px;
+    #main-title {
+      text-align: center;
+      font-family: 'Komika Title';
+      color: rgba(55,55,55,1);
+
+
+      &:first-letter  {
+        font-size: 70px;
+      }
+    }
+
+    .btn {
+      margin-top: 10px;
+    }
   }
 }
