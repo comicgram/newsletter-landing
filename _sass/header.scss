@@ -3,11 +3,7 @@ header {
   background-color: rgba(241, 196, 15,1.0);
 
   .container {
-    width: 780px;
-
-    @media (max-width: 768px) {
-      max-width: 350px;
-    }
+    max-width: 700px;
 
     #main-title {
       text-align: center;
