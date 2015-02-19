@@ -1,17 +1,13 @@
-#disclaimer-content {
+#disclaimer {
   h1 {
-    margin-top: 170px;
+    margin-top: 80px;
     margin-bottom: 20px;
     font-family: 'Komika Title';
-    color: #f1c40f;
+    color: rgba(241, 196, 15,1.0);
+    text-shadow: 3px 3px rgba(55,55,55,1.0);
 
     &:first-letter {
       font-size: 70px;
     }
-  }
-
-  p {
-    margin: 10px 0 20px 25px;
-    font-size: 17px;
   }
 }
