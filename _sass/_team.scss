@@ -1,0 +1,38 @@
+#team {
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  #team-brand {
+    font-family: 'Komika Title';
+    color: rgba(241, 196, 15,1.0);
+    text-shadow: 3px 3px rgba(55,55,55,1.0);
+
+    span::first-letter  {
+      font-size: 50px;
+    }
+  }
+
+  #team-members {
+    margin-top: 30px;
+
+    h3 {
+      font-family: 'Komika Title';
+      color: rgba(241, 196, 15,1.0);
+      text-shadow: 3px 3px rgba(55,55,55,1.0);
+
+      &:first-letter  {
+        font-size: 50px;
+      }
+    }
+
+    a {
+      color: rgba(55, 55, 55,1.0);
+      font-weight: bold;
+      font-size: 17px;
+
+      &:hover {
+        color: rgba(241, 196, 15,1.0);
+      }
+    }
+  }
+}
