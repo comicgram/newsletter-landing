@@ -2,11 +2,17 @@
   position: absolute;
   bottom: 0;
   width: 100%;
-  padding: 40px 0 20px 0;
+  padding: 20px 0 5px 0;
   background-color: rgba(236, 240, 241,1.0);
 
   a {
     color: rgba(55,55,55,1.0);
     text-decoration: none;
+  }
+
+  #mobile-footer {
+    .row {
+      margin-bottom: 15px;
+    }
   }
 }

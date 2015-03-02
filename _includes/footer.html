@@ -1,5 +1,5 @@
 <footer class="footer">
-  <div class="container">
+  <div class="container hidden-xs">
     <div class="pull-left">
       <ul class="list-inline">
         <li>
@@ -16,15 +16,39 @@
       </ul>
     </div>
     <p class="pull-right">&copy; Comicgram 2015</p>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-    <script type="text/javascript">
-      $('#team-link').on('click', function() {
-        $('html, body').animate({
-          scrollTop: $("#team").offset().top
-        }, 1200);
-      });
-    </script>
-    {% include google-analytics.html %}
   </div>
+
+  <div id="mobile-footer" class="container text-center visible-xs-block">
+    <div class="row">
+      <div class="col-xs-12">
+        <a href="mailto:adrian@comicgram.io">Contacto</a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
+        <a href="/disclaimer">Disclaimer</a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
+        <a href="/privacy">Politica de privacidad</a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
+        <p>&copy; Comicgram 2015</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  <script type="text/javascript">
+    $('#team-link').on('click', function() {
+      $('html, body').animate({
+        scrollTop: $("#team").offset().top
+      }, 1200);
+    });
+  </script>
+  {% include google-analytics.html %}
 </footer>
