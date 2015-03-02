@@ -15,6 +15,12 @@
   #team-members {
     margin-top: 30px;
 
+    @media (max-width: 700px) {
+      .member {
+        margin-bottom: 50px;
+      }
+    }
+
     h3 {
       font-family: 'Komika Title';
       color: rgba(241, 196, 15,1.0);
