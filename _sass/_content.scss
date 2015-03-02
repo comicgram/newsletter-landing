@@ -7,7 +7,7 @@
     color: rgba(241, 196, 15,1.0);
     text-shadow: 3px 3px rgba(55,55,55,1.0);
 
-    &:first-letter  {
+    .capital-letter  {
       font-size: 50px;
     }
   }
@@ -31,9 +31,10 @@
 
   h2 {
     font-family: 'Komika Title';
+    text-align: center;
 
-    &:first-letter  {
-      font-size: 50px;
+    .capital-letter  {
+      font-size: 45px;
     }
   }
 }
