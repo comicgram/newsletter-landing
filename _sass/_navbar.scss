@@ -21,7 +21,7 @@
   }
 
   .navbar-collapse {
-    border-color: transparent !important;
+    border-color: rgba(55,55,55,1) !important;
   }
 
   a {
@@ -32,16 +32,20 @@
     &:hover {
       color: rgba(55,55,55,1) !important;
     }
+
+    &:visited {
+      color: rgba(55,55,55,0.6) !important;
+    }
+
+    &:active {
+      color: rgba(55,55,55,0.6) !important;
+    }
   }
 
   .active {
     a {
       color: rgba(55,55,55,1) !important;
       background-color: transparent !important;
-    }
-
-    @media (max-width: 768px) {
-      background-color: rgba(55,55,55,.1) !important;
     }
   }
 }
