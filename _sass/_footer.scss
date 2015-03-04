@@ -7,6 +7,19 @@ footer {
   a {
     color: rgba(55,55,55,1.0);
     text-decoration: none;
+
+    &:hover {
+      text-decoration: none;
+      color: rgba(241, 196, 15,1.0);
+    }
+
+    &:visited {
+      text-decoration: none;
+    }
+
+    &:active {
+      text-decoration: none;
+    }
   }
 }
 
