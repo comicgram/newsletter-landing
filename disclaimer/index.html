@@ -1,6 +1,16 @@
 ---
 layout: disclaimer
+style: |
+  #team-link {
+    display: none;
+  }
 ---
+
+{% if page.style %}
+  <style>
+    {{ page.style }}
+  </style>
+{% endif %}
 
 <div id="disclaimer" class="container">
   <div class="row">
