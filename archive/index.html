@@ -1,7 +1,17 @@
 ---
 layout: archive
 title: Archivo - Comicgram
+style: |
+  #team-link, #archive-link {
+    display: none;
+  }
 ---
+
+{% if page.style %}
+  <style>
+    {{ page.style }}
+  </style>
+{% endif %}
 
 <div id="archive" class="container">
   <div class="row">
