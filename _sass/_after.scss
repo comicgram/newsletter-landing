@@ -1,0 +1,27 @@
+#after {
+  margin-bottom: 100px;
+
+  h2 {
+    font-family: 'Komika Title';
+    color: rgba(241, 196, 15,1.0);
+    text-shadow: 3px 3px rgba(55,55,55,1.0);
+  }
+
+  #farewell {
+    margin-top: 30px;
+
+    @media (max-width: 768px) {
+      margin-bottom: 50px;
+    }
+
+    span {
+      font-size: 45px;
+      font-family: 'Steelfish Regular';
+      color: rgba(55,55,55,1);
+      text-decoration: none;
+      padding-bottom: 5px;
+      border-bottom: 3px solid rgba(241, 196, 15,1.0);
+      text-shadow: none;
+    }
+  }
+}
