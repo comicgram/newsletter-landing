@@ -5,7 +5,7 @@ title: Archivo - Comicgram
 
 <div id="archive" class="container">
   <div class="row">
-    <div class="col-xs-12 col-sm-8 col-sm-offset-4">
+    <div class="col-xs-12 col-sm-8 col-sm-offset-3 col-md-6 col-md-offset-4">
       {% for post in site.posts %}
         {% capture currentyear %}{{ post.date | date: "%Y" }}{% endcapture %}
         {% if currentyear != year %}
