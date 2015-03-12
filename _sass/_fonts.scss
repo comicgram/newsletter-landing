@@ -21,3 +21,40 @@
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot?l8txvw');
+	src:url('../fonts/icomoon.eot?#iefixl8txvw') format('embedded-opentype'),
+		url('../fonts/icomoon.woff?l8txvw') format('woff'),
+		url('../fonts/icomoon.ttf?l8txvw') format('truetype'),
+		url('../fonts/icomoon.svg?l8txvw#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-twitter:before {
+	content: "\e601";
+}
+
+.icon-instagram:before {
+	content: "\e600";
+}
+
+.icon-facebook2:before {
+	content: "\ea8d";
+}
