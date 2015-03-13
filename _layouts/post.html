@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+    <style>
+      #team-link, #archive-link {
+        display: none;
+      }
+    </style>
+
+    {% include navbar.html %}
+    {% include post-header.html %}
+
+    <div id="post" class="container">
+      <div class="row">
+
+        <div class="col-xs-12 col-sm-3">
+          <div id="content-table">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>
+                    <h3>Tabla de contenido</h3>
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                {% for section in page.sections %}
+                  <tr>
+                    <td>
+                      <a href="#{{ section[1] }}">
+                        {{ section[0] }}
+                      </a>
+                    </td>
+                  </tr>
+                {% endfor %}
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="col-sm-7 col-sm-offset-1">
+          {{ content }}
+        </div>
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+</html>
