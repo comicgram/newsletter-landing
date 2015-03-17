@@ -60,7 +60,7 @@
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 767px) {
   .sumome-share-client-wrapper {
     top: 310px !important;
   }
@@ -70,4 +70,13 @@
   .sumome-share-client-wrapper {
     position: relative !important;
   }
+
+  .affix{
+		position: static;
+	}
+}
+
+.affix {
+  top: 80px !important;
+  width: 262px;
 }
