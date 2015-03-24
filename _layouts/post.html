@@ -1,15 +1,51 @@
----
-layout: default
----
-<div class="post">
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+    <style>
+      #team-link {
+        display: none;
+      }
+    </style>
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-  </header>
+    {% include navbar.html %}
+    {% include post-header.html %}
 
-  <article class="post-content">
-    {{ content }}
-  </article>
+    <div id="post" class="container">
+      <div class="row">
 
-</div>
+        <div class="col-xs-12 col-sm-3">
+          <div id="content-table" data-spy="affix" data-offset-top="300">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>
+                    <h3>Tabla de contenido</h3>
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                {% for section in page.sections %}
+                  <tr>
+                    <td>
+                      <a href="#{{ section[1] }}">
+                        {{ section[0] }}
+                      </a>
+                    </td>
+                  </tr>
+                {% endfor %}
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="col-sm-7 col-sm-offset-1">
+          {{ content }}
+        </div>
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+</html>

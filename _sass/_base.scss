@@ -1,26 +1,13 @@
-html, body {
-  height: 100%;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-#overlay {
+html {
+  position: relative;
   min-height: 100%;
-  height: auto !important;
-  background-color: rgba(25, 25, 25,.8)
 }
 
-.container {
-  color: white;
-}
+body {
+  background-color: rgba(236, 240, 241,.1);
+  margin-bottom: 30px;
 
-a {
-  color: #f1c40f !important;
-}
-
-#archive {
-  a {
-    font-family: 'Komika Title';
+  @media (max-width: 768px) {
+    margin-bottom: 150px;
   }
 }

@@ -1,0 +1,40 @@
+#archive {
+  margin-bottom: 100px;
+
+  h2 {
+    font-family: 'Komika Title';
+    color: rgba(241, 196, 15,1.0);
+    text-shadow: 3px 3px rgba(55,55,55,1.0);
+  }
+
+  ul {
+    list-style: none;
+    margin-bottom: 30px;
+    padding-left: 25px;
+
+    li {
+      margin-bottom: 20px;
+
+      a {
+        font-size: 25px;
+        font-family: 'Steelfish Regular';
+        color: rgba(55,55,55,1);
+        text-decoration: none;
+        padding-bottom: 5px;
+        border-bottom: 3px solid rgba(241, 196, 15,1.0);
+
+        &:hover {
+          text-decoration: none;
+        }
+
+        &:visited {
+          text-decoration: none;
+        }
+
+        &:active {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}

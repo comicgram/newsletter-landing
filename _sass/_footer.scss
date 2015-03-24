@@ -1,0 +1,38 @@
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(236, 240, 241,1.0);
+
+  a {
+    color: rgba(55,55,55,1.0);
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: none;
+      color: rgba(241, 196, 15,1.0);
+    }
+
+    &:visited {
+      text-decoration: none;
+    }
+
+    &:active {
+      text-decoration: none;
+    }
+  }
+}
+
+#main-footer {
+  height: 35px;
+  padding: 15px 0 5px 0;
+}
+
+#mobile-footer {
+  height: 150px;
+  padding-top: 10px;
+
+  .row {
+    padding-top: 10px;
+  }
+}

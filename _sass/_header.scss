@@ -1,0 +1,49 @@
+header {
+  padding-bottom: 50px;
+  background-color: rgba(241, 196, 15,1.0);
+
+  .container {
+    max-width: 700px;
+
+    #main-title {
+      text-align: center;
+      font-family: 'Komika Title';
+      color: rgba(55,55,55,1);
+
+
+      &:first-letter  {
+        font-size: 70px;
+      }
+    }
+
+
+    #social-icons{
+      font-size: 25px;
+      margin-top: 35px;
+
+      a {
+        text-decoration: none;
+        color: rgba(55,55,55,1);
+
+        &:hover {
+          text-decoration: none;
+          color: rgba(55,55,55,1);
+        }
+
+        &:visited {
+          text-decoration: none;
+          color: rgba(55,55,55,1);
+        }
+
+        &:active {
+          text-decoration: none;
+          color: rgba(55,55,55,1);
+        }
+      }
+
+      span {
+        margin: 0 15px 0 15px;
+      }
+    }
+  }
+}

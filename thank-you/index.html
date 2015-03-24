@@ -1,0 +1,38 @@
+---
+layout: after
+title: Gracias - Comicgram
+style: |
+  #team-link {
+    display: none;
+  }
+---
+
+{% if page.style %}
+  <style>
+    {{ page.style }}
+  </style>
+{% endif %}
+
+<div id="after" class="container-fluid">
+  <div class="row">
+    <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+      <h2>1. Confirma tu correo</h2>
+        <p class="lead">
+          Para completar el proceso de suscripción, por favor haz click en el enlace del correo que te acabo de mandar. Si no lo ves en tu bandeja de entrada, revisa en la sección de spam.
+        </p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+      <h2>2. Agreganos a tu lista de contactos</h2>
+        <p class="lead">
+          Agrega <a href="mailto:adrian@comicgram.io">adrian@comicgram.io</a> a tus contactos para evitar que los nuevos boletines de Comicgram terminen en la sección de spam. Si no los recibes cuando se hayan publicado (el último viernes de cada mes) revisa la sección de spam.
+        </p>
+    </div>
+  </div>
+  <div id="farewell" class="row">
+    <div class="col-xs-10 col-xs-offset-1 text-center">
+      <span>¡Nos vemos en la próxima edición!</span>
+    </div>
+  </div>
+</div>

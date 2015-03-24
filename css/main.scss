@@ -3,19 +3,17 @@
 ---
 @charset "utf-8";
 
-@media (min-width: 768px) {
-  .container {
-    max-width: 730px;
-  }
-}
-
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
   "base",
   "fonts",
-  "layout",
+  "navbar",
   "header",
+  "content",
+  "team",
   "footer",
   "after",
-  "disclaimer"
+  "disclaimer",
+  "archive",
+  "post"
 ;
