@@ -37,7 +37,7 @@ Tenemos la historia de un policía que decide arriesgar su propia vida para salv
 
 <h2 id="funfacts">Datos curiosos</h2>
 
-* La película fue filmada en sus totalidad usando pantallas verdes y algunos de los actores no tuvieron contacto entre sí durante la filmación debido a que cada uno grababa sus escenas por separado y después unían las escenas.
+* La película fue filmada en sus totalidad usando pantallas verdes y algunos de los actores no tuvieron contacto entre sí durante la filmación debido a que cada uno grababa sus escenas por separado y después las unían.
 * Leonardo DiCaprio fue elegido originalmente para el papel de Roark Junior, pero al rechazar el papel el nuevo actor elegido fue Nick Stahl.
 * Robert Rodriguez y Frank Miller planearon cada escena de la película usando la novela gráfica como storyboard, muy similar a lo que sucedió en 300.
 
@@ -48,11 +48,11 @@ Llamar a Sin City una película creo que no es lo más acertado, más bien podr�
 
 Pudiese comparar estos cortometrajes con la película de 300 por dos cosas, una es esa estética que tienen ambas y que recuerda mucho a cada uno de los cómics en que se basaron para cada filmación; y la otra es el hecho de que cada escena es casi una copia exacta de cada viñeta que puedes encontrarte en ambos cómics.
 
-Sin City, tanto la película como el cómic, es una historia llena de violencia, sangre y, como su nombre lo dice, pecados. Los cortometrajes, sin llegar a tener un estilo como el de Tarantino, quien no escatima en el uso de sangre de utilería, sí tienen un estilo bastante explícito y sangriento.
+Sin City, tanto la película como el cómic, es una historia llena de violencia, sangre y pecado. Los cortometrajes, sin llegar a tener un estilo como el de Tarantino, quien no escatima en el uso de sangre de utilería, son bastante explícitos y sangrientos.
 
 El trabajo de Frank Miller es increíble, un guión excelente y los dibujos ni se diga, todo el cómic es en blanco y negro y a pesar de esto logra tener una estética que hace resaltar lo intrigante que llega a ser cada historia.
 
-A excepción de la historia de “El cliente siempre tiene la razón”, que sólo son unas cuantas páginas en un número especial de Sin City, las demás historias están repartidas entre 5 ó 6 números.
+A excepción de “El cliente siempre tiene la razón”, que sólo son unas cuantas páginas en un número especial de Sin City, las demás historias están repartidas entre 5 ó 6 números.
 
 Si bien la historias son diferentes entre sí, hay elementos que se comparten entre ellas, siendo el más obvio la ciudad donde suceden y también uno que otro personaje. La línea del tiempo en que sucede cada una es diferente, por eso es que hay personajes que en una historia están muertos mientras en la otra están vivos.
 
